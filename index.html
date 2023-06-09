@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+
+
+</head>
+
+
+
+<body>
+    <header class="header">
+        <nav class="container nav">
+            <h1 class="logo">Rishav</h1>
+            <ul class="nav-items">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Todo</a></li>
+                <li><a href="#">Sign Up</a></li>
+            </ul>
+        </nav>
+        <div class="headline dev-btn" id="headline">
+            <h2 id="mainHeading">Manage Your Tasks <span style="display: none;">okkk</span></h2>
+            <button class="btn btn-headline one" id="btn-headline">Learn More</button>
+        </div>
+    </header>
+
+
+
+
+
+    <section class="section-todo container">
+        <h2>Your plan for today ?</h2>
+
+
+
+
+
+        <form class="form-todo">
+            <input type="text" name="" placeholder="Add Todo">
+            <input type="submit" value="Add Todo" class="btn">
+        </form>
+
+
+
+
+        <ul class="todo-list">
+
+           <li>
+            <span class="text">Do This Do That</span>
+            <div class="todo-btns">
+                <button class="todo-btn done" >Done</button>
+                <button class="todo-btn remove">Remove</button>
+            </div>  
+           </li>
+
+        </ul>
+
+
+
+    </section>
+
+
+
+
+
+    <section class="section-signup container">
+        <h2 class="signup-h2">Sign Up</h2>
+        <form class="signup-form">
+            <div class="from-group">
+                <label for="username"></label>
+                <input type="text" name="username" id="username" placeholder="Username *" class="input-box">
+            </div>
+            <div class="from-group">
+                <label for="password"></label>
+                <input type="password" name="password" id="password" placeholder="Password *" class="input-box">
+            </div>
+            <div class="from-group">
+                <label for="confirmPassword"></label>
+                <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm Password *"
+                    class="input-box">
+            </div>
+            <div class="from-group">
+                <label for="phone"></label>
+                <input type="text" name="phone" id="phone" placeholder="Phone *" class="input-box">
+            </div>
+            <div class="from-group">
+                <label for="email"></label>
+                <input type="email" name="email" id="email" placeholder="Email *" class="input-box">
+            </div>
+            <div class="from-group">
+                <label for="About"></label>
+                <textarea name="about" id="about" placeholder="About YourSelf" class="input-box"></textarea>
+            </div>
+            <div class="submit-btn-div">
+                <button type="submit" class="btn-submit">Submit</button>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
